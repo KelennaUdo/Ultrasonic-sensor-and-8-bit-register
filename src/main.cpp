@@ -89,7 +89,7 @@ int map(int distance) {
   if (distance < 0 || distance > 400) {
     return -1; // Invalid distance
   }
-  return map(distance, 0, 100, 0, 7);
+  return map(distance, 0, 75, 0, 7);
 }
 
 // Activate the LED corresponding to the mapped value
