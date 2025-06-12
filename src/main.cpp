@@ -56,7 +56,13 @@ void loop()
 }
 
 // ######### End of the main loop
+
+
+
 // #####################################################
+
+
+
 // FUNCTIONS
 
 
@@ -76,17 +82,14 @@ void updateShiftRegister(){
        digitalWrite(latchPin, HIGH);
        latchState = HIGH;
    }
-
 }
 
 // Maps the distance measured by the ultrasonic sensor to a value between 0 and 7
 int map(int distance) {
-  // Map the distance to a value between 0 and 7
-  // Assuming the distance is in cm and we want to map it to 8 LEDs
   if (distance < 0 || distance > 400) {
     return -1; // Invalid distance
   }
-  return map(distance, 0, 75, 0, 7);
+  return map(distance, 0, 100, 0, 7);
 }
 
 // Activate the LED corresponding to the mapped value
