@@ -1,4 +1,4 @@
-
+# Smart Sensor Hub with 8-bit Shift Registers
 
 This project uses an Arduino Uno, an ultrasonic distance sensor (HC-SR04), and a 74HC595 8-bit shift register to visually display measured distances on 8 LEDs.
 
