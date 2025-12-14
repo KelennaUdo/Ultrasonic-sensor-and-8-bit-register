@@ -42,11 +42,13 @@ This project uses an Arduino Uno, an ultrasonic distance sensor (HC-SR04), and a
 2. **Install [PlatformIO](https://platformio.org/) in VS Code**
 3. **Connect your hardware as described above**
 4. **Build and upload the code:**
-   ```
+
+   ```bash
    pio run --target upload
-   ```
+   ```bash
 5. **Open the Serial Monitor to view distance readings:**
-   ```
+
+   ```bash
    pio device monitor
    ```
 
@@ -69,4 +71,6 @@ MIT License. See [LICENSE](LICENSE) for details.
 
 ---
 
-*Created by kelenna udo*
+## Creator
+
+Created by kelenna udo
